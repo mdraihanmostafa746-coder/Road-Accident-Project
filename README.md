@@ -1,75 +1,66 @@
-# 🚗 Road Accident Analysis and Prediction
+# Road Accident Severity Prediction and Accident Risk Analysis
 
-## 📌 Project Overview
+## Project Overview
+This project focuses on analyzing road accident data and applying Machine Learning techniques to predict accident severity and understand accident patterns.
 
-The **Road Accident Analysis and Prediction** project focuses on analyzing road accident data to identify patterns, understand the major factors contributing to accidents, and apply Machine Learning techniques to explore accident prediction.
+The main goal is to identify factors associated with road accidents and build models that can help analyze accident severity.
 
-The project uses Python and Data Science libraries for data cleaning, exploratory data analysis, visualization, and machine learning model development.
+## Dataset
+- Source: Kaggle – Road Traffic Accidents
+- File: `train.csv`
+- Records: 8,210
+- Features: 33
 
-## 🎯 Objectives
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-- Analyze road accident datasets to identify important patterns.
-- Understand the factors contributing to road accidents.
-- Explore accident trends based on different features.
-- Perform data cleaning and preprocessing.
-- Build and evaluate Machine Learning models.
-- Generate insights that can help improve road safety awareness.
+## Project Workflow
+1. Data Loading and Inspection
+2. Data Cleaning and Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Selection
+5. Model Training
+6. Model Evaluation
+7. Model Comparison and Conclusion
 
-## 🛠️ Technologies & Tools Used
+## Machine Learning Models
+- Simple Linear Regression
+- Multiple Linear Regression
+- Polynomial Regression
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Random Forest
 
-- **Python**
-- **Jupyter Notebook**
-- **Pandas** – Data manipulation and analysis
-- **NumPy** – Numerical computations
-- **Matplotlib** – Data visualization
-- **Seaborn** – Statistical visualization
-- **Scikit-learn** – Machine Learning
-
-## 📂 Project Structure
-
+## Project Structure
 ```text
-Road-Accident-Analysis-and-Prediction/
+Road-Accident-ML/
 │
-├── dataset/
-│   └── road_accident.csv
+├── data/
+│   ├── train.csv
+│   └── test.csv
 │
 ├── notebooks/
-│   └── road_accident_analysis.ipynb
+│   └── 01_Dataset_Inspection.ipynb
 │
-├── README.md
-└── requirements.txt
+├── reports/
+│
+└── README.md
 ```
 
-*Note: The folder and file structure may be updated as the project develops.*
+## Key Objectives
+- Analyze accident severity patterns.
+- Understand the relationship between accident conditions and severity.
+- Predict accident severity using Machine Learning.
+- Compare different models using evaluation metrics.
 
-## 🔍 Project Workflow
+## Limitations
+The dataset contains an imbalanced target variable, with fatal accidents representing a small proportion of records. Therefore, model performance should be evaluated using precision, recall and F1-score, not accuracy alone.
 
-1. **Data Collection** – Loading the road accident dataset.
-2. **Data Understanding** – Exploring dataset structure and features.
-3. **Data Cleaning** – Handling missing values, duplicates, and inconsistencies.
-4. **Exploratory Data Analysis (EDA)** – Identifying accident patterns and trends.
-5. **Data Visualization** – Creating meaningful visualizations.
-6. **Feature Engineering** – Preparing relevant features for Machine Learning.
-7. **Model Building** – Training suitable Machine Learning algorithms.
-8. **Model Evaluation** – Evaluating model performance using appropriate metrics.
-
-## 📊 Expected Outcomes
-
-- Understanding road accident patterns and trends.
-- Identifying important factors associated with accidents.
-- Developing a Machine Learning model for the selected prediction task.
-- Presenting meaningful insights through data visualization.
-
-## 🚀 Project Status
-
-**In Progress** – Currently working on data analysis, preprocessing, and Machine Learning implementation.
-
-## 👨‍💻 Author
-
+## Author
 **Md Raihan Mostafa**
-
-- GitHub: [mdraihanmostafa746-coder](https://github.com/mdraihanmostafa746-coder)
-
----
-
-⭐ If you find this project interesting, feel free to explore the repository!
